@@ -1,4 +1,7 @@
+// import sample from './modules/sample'
+
 const routes = [
+  // sample,
   {
     path: '/',
     component: () => import('pages/Index.vue')
